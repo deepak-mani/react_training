@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/deepak-mani/react_training.git",
   "author": "Deepak Mani <deepak.m@skava.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index",
+    "test": "make TEST"
+  }
 }

@@ -1,4 +1,4 @@
 // import { app } from "./index"
 const app = require("./index");
 
-console.assert(typeof app === Object, "test");
+console.assert(typeof app === "object", "test");

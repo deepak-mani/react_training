@@ -1,12 +1,16 @@
 {
-  "name": "react_training",
+  "name": "react_training_deepak",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/deepak-mani/react_training.git",
-  "author": "Deepak Mani <deepak.m@skava.com>",
+  "description": "test publish react training",
   "license": "MIT",
   "scripts": {
-    "dev": "node index",
-    "test": "make TEST"
+    "test": "make TEST",
+    "prepublish": "make TEST"
+  },
+  "dependencies": {
+    "eslint": "4.19.1",
+    "express": "4.16.3",
+    "react_training_express": "^1.0.2"
   }
 }
